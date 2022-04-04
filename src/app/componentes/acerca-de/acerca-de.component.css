@@ -1,0 +1,16 @@
+.acerca-de{
+    display:block;/*uno*/
+    border-color:black;
+    margin: 10px;
+    padding:10px ;
+    border-radius: 10px;
+    border-style:solid;
+    border-width: 1.3px;
+}
+
+svg{    
+    vertical-align: top;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: auto;
+}
