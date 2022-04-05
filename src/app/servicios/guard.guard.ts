@@ -22,5 +22,4 @@ export class GuardGuard implements CanActivate {
       return false;
     }
   }
-  
 }
