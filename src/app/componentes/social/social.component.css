@@ -1,0 +1,47 @@
+img{
+    width: 50px;
+}
+#niidea a{
+    display:block;
+    align-items: center;
+}
+section{
+   /* --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
+    
+    justify-content: center;
+    align-items: center;*/
+    display: flex;
+}
+
+.buttons{
+    min-width: 700px;
+    
+    justify-content: space-around;
+}
+.buttons a{
+    text-decoration: none;   
+    font-size: 20px;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align:center;
+    background:#314652;
+    color:#f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgb(0,0,0,.5);
+    transition: all .4s ease-in-out;
+}
+
+.buttons a:hover{
+    transform: scale(1.2);
+}
+
+.btn btn-login-top{
+    font-size: larger;
+    
+}
+.btn {
+    color:#3bcb1b;
+    border-color:#3bcb1b;
+}

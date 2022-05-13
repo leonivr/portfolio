@@ -14,6 +14,9 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { PortfolioService } from './servicios/portfolio.service';
 import { InterceptorService } from './servicios/interceptor.service';
+import { LogoComponent } from './componentes/logo/logo.component';
+import { SocialComponent } from './componentes/social/social.component';
+import { BannerComponent } from './componentes/banner/banner.component';
 
 
 @NgModule({
@@ -25,7 +28,10 @@ import { InterceptorService } from './servicios/interceptor.service';
     ExperienciaYEducacionComponent,
     AptitudesComponent,
     LogrosComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    LogoComponent,
+    SocialComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
