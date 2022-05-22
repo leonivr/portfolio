@@ -17,6 +17,10 @@ import { InterceptorService } from './servicios/interceptor.service';
 import { LogoComponent } from './componentes/logo/logo.component';
 import { SocialComponent } from './componentes/social/social.component';
 import { BannerComponent } from './componentes/banner/banner.component';
+import { NgCircleProgressModule} from 'ng-circle-progress';
+import { HysSkillsComponent } from './componentes/hys-skills/hys-skills.component';
+import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 
 @NgModule({
@@ -31,13 +35,17 @@ import { BannerComponent } from './componentes/banner/banner.component';
     PortfolioComponent,
     LogoComponent,
     SocialComponent,
-    BannerComponent
+    BannerComponent,
+    HysSkillsComponent,
+    ProyectosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [PortfolioService,
   {provide:HTTP_INTERCEPTORS, useClass:InterceptorService, multi:true},

@@ -1,12 +1,14 @@
 app-social{
-   float: right;
    margin-left: auto;
 }
+
 #argprog{
     height: 70px;
 }
 nav{
+    padding-right:20px;
     height:80px;
+    width:100.99%;
 }
 #foto-perfil{
     border-radius: 50%;

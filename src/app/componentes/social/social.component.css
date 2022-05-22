@@ -1,22 +1,13 @@
 img{
     width: 50px;
 }
-#niidea a{
-    display:block;
-    align-items: center;
-}
+
 section{
-   /* --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
-    
-    justify-content: center;
-    align-items: center;*/
     display: flex;
 }
 
 .buttons{
-    min-width: 700px;
-    
+    min-width: 300px;
     justify-content: space-around;
 }
 .buttons a{
