@@ -7,20 +7,18 @@ import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-ses
 import { AcercaDeComponent } from './componentes/acerca-de/acerca-de.component';
 import { ExperienciaYEducacionComponent } from './componentes/experiencia-y-educacion/experiencia-y-educacion.component';
 import { AptitudesComponent } from './componentes/aptitudes/aptitudes.component';
-import { LogrosComponent } from './componentes/logros/logros.component';
-import { PortfolioComponent } from './componentes/portfolio/portfolio.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { PortfolioService } from './servicios/portfolio.service';
 import { InterceptorService } from './servicios/interceptor.service';
 import { LogoComponent } from './componentes/logo/logo.component';
-import { SocialComponent } from './componentes/social/social.component';
 import { BannerComponent } from './componentes/banner/banner.component';
 import { NgCircleProgressModule} from 'ng-circle-progress';
 import { HysSkillsComponent } from './componentes/hys-skills/hys-skills.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 import { FooterComponent } from './componentes/footer/footer.component';
+import { PortfolioComponent } from './componentes/portfolio/portfolio.component';
 
 
 @NgModule({
@@ -31,10 +29,8 @@ import { FooterComponent } from './componentes/footer/footer.component';
     AcercaDeComponent,
     ExperienciaYEducacionComponent,
     AptitudesComponent,
-    LogrosComponent,
-    PortfolioComponent,
     LogoComponent,
-    SocialComponent,
+    PortfolioComponent,
     BannerComponent,
     HysSkillsComponent,
     ProyectosComponent,

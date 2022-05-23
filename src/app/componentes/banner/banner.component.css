@@ -1,4 +1,7 @@
 img{
-    width: 100.99%;
     height: 350px;
+}
+.row{
+    display: flex;
+    width: auto;
 }

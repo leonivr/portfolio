@@ -1,66 +1,15 @@
-app-social{
-   margin-left: auto;
-}
-
-#argprog{
-    height: 70px;
-}
 nav{
     padding-right:20px;
     height:80px;
-    width:100.99%;
 }
-#foto-perfil{
-    border-radius: 50%;
-    position: absolute;
-    top: 200px;
-    bottom:0;
-    left: 0;
-    right: 10;
-    width: 15%;
-    height: 20%;
-    cursor: pointer;
-    z-index: 2;
-    padding-left: 10px;
-}
-
-#ember67{
-    color: azure;
-    padding: 3px;
-}
-
-#ember62{
-    color: azure;
-    padding: 3px;
-}
-button{
-    padding-left: 1.6rem!important;
-    padding-right: 1.6rem!important;
-}
-#ember90{
-    color: azure;
-    padding: 3px;
-}
-h2{
-    padding-left: 10px;;
-}
-.text-body-medium{
-    padding-left: 10px;
-}
-
-#btn-ism{
-    padding-left: 10px;
-    --corner-radius-large: 2.6rem;
-}
-.banner{
-    display: block;
+.row{
     width: 100%;
-    height: 234px;
-    border-top-left-radius: var(--corner-radius-medium);
-    border-top-right-radius: var(--corner-radius-medium);
-    cursor: pointer;
+    
 }
-
-#login{
-    margin-right: 10%;
+div{
+    border-style:solid;
+    border-width: 1.3px;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
 }
+    
