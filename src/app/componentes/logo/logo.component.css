@@ -1,8 +1,13 @@
+.row{
+    width: 100%;
+}
 .redes{
     margin-top: 30px;
     margin-right: 5%;
+    
 }
 .container{
+    padding: 20px;
     display:flex;
     justify-content:space-between;
     margin-right:800px;
