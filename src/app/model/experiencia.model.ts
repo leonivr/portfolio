@@ -1,22 +1,15 @@
 export class experiencia{
     id?:number;
-    nombreEmpresa:String;
-    esTrabajoActual:number;
-    fechaInicio:Date;
-    fechaFin:Date;
+    nombre_empresa:string;
+    fecha_inicio:String;
+    fecha_fin:String;
     descripcion:String;
-    persona_id:number;
-    tipo_empleo_id:number;
 
-    constructor(nombreEmpresa:String,esTrabajoActual:number,fechaInicio:Date,fechaFin:Date,
-        descripcion:String,persona_id:number,tipo_empleo_id:number){
-
-            this.nombreEmpresa=nombreEmpresa;
-            this.esTrabajoActual=esTrabajoActual;
-            this.fechaInicio=fechaInicio;
-            this.fechaFin=fechaFin;
+    constructor ( nombreEmpresa:string,fechaInicio:String,fechaFin:String,
+        descripcion:String){
+            this.nombre_empresa=nombreEmpresa;
+            this.fecha_inicio=fechaInicio;
+            this.fecha_fin=fechaFin;
             this.descripcion=descripcion;
-            this.persona_id=persona_id;
-            this.tipo_empleo_id=tipo_empleo_id;
         }
 }
