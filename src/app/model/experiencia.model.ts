@@ -1,15 +1,18 @@
 export class experiencia{
     id?:number;
-    nombre_empresa:string;
+    esTrabajoActual:String;
+    descripcion:String;
     fecha_inicio:String;
     fecha_fin:String;
-    descripcion:String;
+    nombre_empresa:string;
 
-    constructor ( nombreEmpresa:string,fechaInicio:String,fechaFin:String,
-        descripcion:String){
-            this.nombre_empresa=nombreEmpresa;
+    constructor (esTrabajoActual:String,descripcion:String,
+        fechaInicio:String,fechaFin:String,nombreEmpresa:string
+        ){
+            this.esTrabajoActual=esTrabajoActual;
+            this.descripcion=descripcion;
             this.fecha_inicio=fechaInicio;
             this.fecha_fin=fechaFin;
-            this.descripcion=descripcion;
+            this.nombre_empresa=nombreEmpresa;
         }
 }

@@ -8,8 +8,10 @@ export class persona{
     telefono:String;
     correo:String;
     img:String;
+    fechaNac:String;
 
-    constructor (nombre:String,apellido:String,sobre_mi:String,domicilio:String,edad:String,telefono:String,correo:String,img:string){
+    constructor (nombre:String,apellido:String,sobre_mi:String,
+        domicilio:String,edad:String,telefono:String,correo:String,img:string,fecha_nac:String){
 
         this.nombre=nombre;
         this.apellido=apellido;
@@ -19,5 +21,6 @@ export class persona{
         this.telefono=telefono;
         this.correo=correo;
         this.img=img;
+        this.fechaNac=fecha_nac;
     }
 }

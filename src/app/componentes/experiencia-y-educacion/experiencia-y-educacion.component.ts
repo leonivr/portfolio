@@ -1,6 +1,7 @@
 import { getLocaleDateFormat } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { experiencia } from 'src/app/model/experiencia.model';
+import { persona } from 'src/app/model/persona.model';
 import { ExperienciaService } from 'src/app/service/experiencia.service';
 
 @Component({
@@ -10,7 +11,8 @@ import { ExperienciaService } from 'src/app/service/experiencia.service';
 })
 export class ExperienciaYEducacionComponent implements OnInit {
 
-  experiencia: experiencia = new experiencia("","","","");
+  experiencia: experiencia = new experiencia("","","","","");
+  
   constructor(public experienciaService:ExperienciaService) { }
 
   ngOnInit(): void {
